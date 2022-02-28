@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="abcd.css">
+</head>
+
+<body>
+    <!--Banner-->
+    <div class="banner" id="banner">
+        <header>
+            <div class="logo"><a href="#">ken</a></div>
+            <div class="menuToggle" onclick="toggleMenu()"></div>
+            <div class="container">
+                <button class="btn"><a href="#banner">Home</a></button>
+                <button class="btn"><a href="#about" >Our Team</a></button>
+                <button class="btn"><a href="#service">Create CV</a></button>
+                <button class="btn"><a href="#contus">Contact Us</a></button>
+            </div>
+
+        </header>
+        <img src="bgm.jpg">
+        <div class="content" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
+            <h2>KEN. <span> The Best CV Maker Online</span></h2>
+            <p>If a sheet of paper represents your entire work life, personality, and skills, it better be a pretty amazing piece of paper— Let KEN do the heavy lifting.
+            </p>
+        </div>
+    </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const container = document.querySelector('.container');
+            menuToggle.classList.toggle('active');
+            container.classList.toggle('active');
+        }
+    </script>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Our Team</h2>
+        </div>
+        <div class="contain">
+            <div class="card" data-100-center="opacity:1;left:0" data-0-bottom="opacity:0;left:-200px">
+                <div class="cont">
+                    <div class="imgBxx"><img src="ansh.jpg"></div>
+                    <div class="contBx">
+                        <h3>Anshuman Kumar Kushwaha<br><span>Front-End Developer</span></h3>
+                    </div>
+                </div>
+
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.facebook.com/AnshumanKumarKushwaha"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="https://twitter.com/7aceAnsh"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="https://github.com/Anshuman455"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="card" data-100-center="opacity:1;bottom:0" data-0-bottom="opacity:0;bottom:-300px">
+                <div class="cont">
+                    <div class="imgBxx"><img src="poornima.jpeg"></div>
+                    <div class="contBx">
+                        <h3>Poornima Singh<br><span>Front-End Developer</span></h3>
+                    </div>
+                </div>
+
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.facebook.com/profile.php?id=100077398887994"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="https://twitter.com/Poornim08793836?t=Bhn3ACVnKypehwSsE_iH6g&s=08"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="https://github.com/Poornimaasingh/Poornimaasingh.git"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="card" data-100-center="opacity:1;left:0" data-0-bottom="opacity:0;left:200px">
+                <div class="cont">
+                    <div class="imgBxx"><img src="venom.jpg"></div>
+                    <div class="contBx">
+                        <h3>Vishal Kumar Mauray<br><span>Back-End Developer</span></h3>
+                    </div>
+                </div>
+
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.facebook.com/profile.php?id=100009762091628"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="https://twitter.com/VishalM55363512"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="https://github.com/VishalKumarMauray"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!---Service-->
+
+    <section class="service" id="service">
+        <div class="cv" data-10-center="opacity:1;left:0" data-100-center="opacity:0;left:200px">
+            <h1>Create a Professional CV</h1>
+            <p>Fill in the blanks and download your cv in minutes.</p>
+            <a href="cv.html">Create My CV</a>
+        </div>
+
+        <div class="asd" data-10-center="opacity:1;left:0" data-900-bottom="opacity:0;left:200px">
+            <h2>How it works</h2>
+            <div class="how">
+                <div class="tl-content">
+                    <h5 class="tl-title-2">01. Fill in the blanks</h5>
+                    <p>
+                        Start by filling in the relevant information for your CV.
+                    </p>
+                </div>
+                <div class="tl-content">
+                    <h5 class="tl-title-2">02.Download your CV</h5>
+                    <p>
+                        Easily download your CV and edit afterwards.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!--Contact us-->
+
+
+    <section class="contus" id="contus">
+        <div class="contactus">
+            <div class="title">
+                <h2>Get in Touch</h2>
+            </div>
+            <div class="box" data-0-center="opacity:1;right:0" data-1000-top="opacity:0;right:-100px">
+                <div class="contact form">
+                    <h3>Send a Message</h3>
+                    <form action="connect.php" method="post">
+                        <div class="formBx">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>First Name</span>
+                                    <input type="text" placeholder="Anshuman" name="firstname">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Last Name</span>
+                                    <input type="text" placeholder="Kumar Kushwaha" name="lastname">
+                                </div>
+                            </div>
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Email</span>
+                                    <input type="text" placeholder="Ex: anshumanverma455@gmail.com" name="email">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Mobile</span>
+                                    <input type="text" placeholder="+91 7524072726" name="number">
+                                </div>
+                            </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Message</span>
+                                    <textarea placeholder="Write your message here..." name="textarea"></textarea>
+                                </div>
+                            </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact map" data-0-center="opacity:1;left:0" data-1000-top="opacity:0;left:-100px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.1758916584763!2d82.67957441482834!3d25.830748783605483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399038ec46006f07%3A0x885f7ba99e66e154!2sVeer%20Bahadur%20Singh%20Purvanchal%20University!5e0!3m2!1sen!2sin!4v1643807803853!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1" style="--i:1"></div>
+                <div class="wave" id="wave2" style="--i:2"></div>
+                <div class="wave" id="wave3" style="--i:3"></div>
+                <div class="wave" id="wave4" style="--i:4"></div>
+            </div>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/AnshumanKumarKushwaha">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/7aceAnsh">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/anshuman-kumar-kushwaha-25b979206/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/anshuman_kumar_kushwaha/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://goo.gl/maps/1Xcokf9YfejFGwDV6">
+                        <ion-icon name="location"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:anshumanverma455@gmail.com">
+                        <ion-icon name="mail-open"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tel:+917524072726">
+                        <ion-icon name="call"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+
+                <li><a href="#contus">Contact</a></li>
+            </ul>
+            <p>© 2022 KEN | All Rights Reserved</p>
+        </footer>
+
+    </section>
+
+    <script>
+        function popupToggle() {
+            const popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+
+
+    <script src="skrollr.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.3,
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+#cv-template {
+    display: none;
+}
+
+.myimg {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.container .background {
+    background-color: #00324A;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.5rem 0;
+}
+
+.pro {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #94D9EA;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f7f7f7ec;
+    padding-top: 1rem;
+}
+
+.contact-info ul {
+    padding-top: 0.rem;
+}
+
+.contact-info ul li {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ul li i {
+    padding-right: rem;
+    font-size: 0.98rem;
+    color: #2D9CDB;
+}
+
+.card-header {
+    color: #fff;
+}
+
+.card-body li {
+    color: #000;
+    letter-spacing: 0.5px;
+}
